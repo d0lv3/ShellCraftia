@@ -27,11 +27,12 @@ ShellCraftia is a shell script that offers a user friendly CLI that completely m
 ### Steps:
 1. Clone this repository to your server:
    ```bash
-   git clone https://github.com/your-username/ShellCraftia.git
+   git clone https://github.com/d0lv3/ShellCraftia.git
    cd ShellCraftia
    ```
 
-2. Download the server software from mojang:
+2. Download the server software from mojang
+   Make sure its in `ShellCraftia` Directory:
    ```
    wget https://minecraft.net/en-us/download/server/bedrock -O minecraft-bedrock-server.zip
    unzip minecraft-bedrock-server.zip
@@ -53,7 +54,7 @@ ShellCraftia is a shell script that offers a user friendly CLI that completely m
    chmod +x ShellCraftia.zsh
    ```
 
-5. Run the script:
+6. Run the script:
    ```
    ./ShellCraftia.zsh
    ```
