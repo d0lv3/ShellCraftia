@@ -29,3 +29,21 @@ ShellCraftia is a shell script that offers a user friendly CLI that completely m
    ```bash
    git clone https://github.com/your-username/ShellCraftia.git
    cd ShellCraftia
+   ```
+
+2. Download the server software from mojang:
+   ```
+   wget https://minecraft.net/en-us/download/server/bedrock -O minecraft-bedrock-server.zip
+   unzip minecraft-bedrock-server.zip
+   ```
+
+3. To edit the game settings:
+   open the `server.properties` file with any text editor,
+   for instance:
+   ```
+   nano server.properties
+   ```
+   Then you can find all the game options, feel free to read them and enable what you want.
+   
+   **Note:** make sure to see the online option, set its value to `true` if you want to make the server online,
+   set it to `false` if you wish to make it only available through the LAN.
