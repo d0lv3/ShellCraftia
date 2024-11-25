@@ -14,7 +14,7 @@ ShellCraftia is a shell script that offers a user friendly CLI that completely m
 - **Easy-to-Use Interface**: Simple command-line tools to manage your server with minimal effort.
 
 ## Tech Stack:
-- **Linux**: A stable and reliable operating system for hosting the Minecraft server.
+- **Debian-Based Linux**: A stable and reliable operating system for hosting the Minecraft server.
 - **Zsh**: The Z shell is used for writing efficient and flexible Shell scripts that automate server management tasks.
 - **screen**: A terminal multiplexer that keeps the server session running in the background, even after disconnecting from the terminal.
 - **Minecraft Bedrock Edition**: The server software used to host the game.
