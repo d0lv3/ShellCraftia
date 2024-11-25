@@ -45,5 +45,15 @@ ShellCraftia is a shell script that offers a user friendly CLI that completely m
    ```
    Then you can find all the game options, feel free to read them and enable what you want.
    
-   **Note:** make sure to see the online option, set its value to `true` if you want to make the server online,
+   **Note:** in `server.properties` make sure to see the online option, set its value to `true` if you want to make the server online,
    set it to `false` if you wish to make it only available through the LAN.
+
+4. Make the script Executable:
+   ```
+   chmod +x ShellCraftia.zsh
+   ```
+
+5. Run the script:
+   ```
+   ./ShellCraftia.zsh
+   ```
